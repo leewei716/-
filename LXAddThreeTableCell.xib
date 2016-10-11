@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCell3" id="Oec-hr-sso" userLabel="Table Cell3" customClass="LXAddThreeTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oec-hr-sso" id="grg-je-l30">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="墨尔本工商管理专业" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCF-m8-a7r">
+                        <rect key="frame" x="25" y="11" width="200" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="6RA-eh-Se7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="off" highlightedImage="on" translatesAutoresizingMaskIntoConstraints="NO" id="g2h-8l-4kc">
+                        <rect key="frame" x="272" y="11" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="20" id="6Ia-9w-eZ6"/>
+                            <constraint firstAttribute="height" constant="20" id="Cgu-4C-qOu"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="20" id="DzP-zK-SVr"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="Ppg-7w-wjs"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="b7J-cV-FXV"/>
+                            <constraint firstAttribute="width" constant="20" id="rjZ-k6-zoZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g2h-8l-4kc" firstAttribute="top" secondItem="grg-je-l30" secondAttribute="topMargin" constant="3.5" id="80I-Kp-wM1"/>
+                    <constraint firstItem="UCF-m8-a7r" firstAttribute="leading" secondItem="grg-je-l30" secondAttribute="leadingMargin" constant="17" id="DAy-eR-jdq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="UCF-m8-a7r" secondAttribute="bottom" constant="3" id="GzZ-K0-EzP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="g2h-8l-4kc" secondAttribute="trailing" constant="20" id="l1o-cd-zua"/>
+                    <constraint firstItem="UCF-m8-a7r" firstAttribute="top" secondItem="grg-je-l30" secondAttribute="topMargin" constant="3" id="vax-vH-KPO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="MajorLable" destination="UCF-m8-a7r" id="baV-zf-umZ"/>
+                <outlet property="wantMajorImg" destination="g2h-8l-4kc" id="a9E-2Z-e9G"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="524"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="off" width="48" height="48"/>
+        <image name="on" width="48" height="48"/>
+    </resources>
+</document>

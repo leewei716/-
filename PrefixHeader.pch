@@ -1,0 +1,74 @@
+//
+//  PrefixHeader.pch
+//  适配
+//
+//  Created by apple on 16/4/17.
+//  Copyright © 2016年 apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Masonry.h"
+#import "UIViewExt.h"
+#import "FlexibleFrame.h"
+#import "UIView+XMGExtension.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+//////////导入评论相关的头文件///////////////////////////
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+#import "UIImageView+WebCache.h"
+#import "YYText.h"
+#import "YYTextView.h"
+#import "YYLabel.h"
+#import "UIView+YYAdd.h"
+#import "CALayer+YYAdd.h"
+#import "UIControl+YYAdd.h"
+#import "YYFPSLabel.h"
+#import "MMPlaceHolder.h"
+#import "ChatKeyBoardMacroDefine.h"
+
+///////////////////////////////////////////////////
+
+
+//#define IPHONE6PlusFRAME CGSizeMake(414,736)//iphone6Plus／6sPlus尺寸
+#define IPHONE6FRAME CGSizeMake(375, 667)//iphone6／6s尺寸
+#define IPHONE5FRAME CGSizeMake(320, 568)//iphone5／5s尺寸
+#define IPHONE4FRAME CGSizeMake(320, 480)//iphone4／4s尺寸
+
+#define FLEXIBLE_NUMX(num) [FlexibleFrame flexibleFloatX:num]
+#define FLEXIBLE_NUMY(num) [FlexibleFrame flexibleFloatY:num]
+#define COLOR(BackCOLOR)   [UIColor colorWithRed:92/255.0 green:92/255.0 blue:92/255.0 alpha:1.0]
+#define CUSTORMBUTTONCOLOR  [UIColor colorWithRed:216/255.0 green:216/255.0 blue:216/255.0 alpha:1.0]
+#define HOTCOLOR [UIColor colorWithRed:103/255.0 green:103/255.0 blue:103/255.0 alpha:1.0]
+
+#define _contentViewHeigh  _scrollerview.contentSize.height-_titlesView.frame.size.height-_backImg.frame.size.height
+
+#define kAvatar_Size 40
+#define kGAP 10
+#define kThemeColor [UIColor colorWithRed:0 green:(190 / 255.0) blue:(12 / 255.0) alpha:1]
+
+
+#define kTabBarHeight       49
+#define kNavbarHeight       64
+
+#define kAlmostZero         0.0000001
+#define ButtonWidth    [UIScreen mainScreen].bounds.size.width/3-2
+#define ScreenHeight    [UIScreen mainScreen].bounds.size.height
+//tabbar字体颜色
+#define TabBarColor   [UIColor colorWithRed:19/255.0 green:90/255.0 blue:255/255.0 alpha:1.0]
+//字体颜色
+#define TextColor   [UIColor colorWithRed:124/255.0 green:124/255.0 blue:124/255.0 alpha:1.0]
+//标题字体颜色
+#define TitleColor   [UIColor colorWithRed:49/255.0 green:148/255.0 blue:233/255.0 alpha:1.0]
+
+#define BackColor   [UIColor colorWithRed:246/255.0 green:246/255.0 blue:246/255.0 alpha:1.0]
+/** 屏幕宽度 */
+#define ScreenWidth     [UIScreen mainScreen].bounds.size.width
+
+
+#define BASE_URL           @"http://cbchebashi.com:9860/ios/"     // 服务器地址
+#define MEMBER_REG                        @"40002"
+#define MEMBER_GETCODE                    @"40003"
+
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,96 @@
+{
+    "result":10000,
+    "data":{
+        "total":1,
+        "rows":[
+                
+                {
+                "cid":"8",
+                "message_id":575,
+                "message":"八戒：“猴哥，好在你不会化妆，否则早就花光了全部家产！”；悟空：“怎么可能？”；八戒：“真的啊，人家一瓶护发素用两个月，你呢两天就会用完qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq”",
+                "createDate":1463123639000,
+                "timeTag":"2016-08-09 15:45:12",
+                "createDateStr":"2016-05-13 15:13",
+                "objId":"f1562484",
+                "message_type":"text",
+                "checkStatus":"YES",
+                "userId":274,
+                "userName":"文明",
+              "commentNumber":"915",
+                "postTitle":"我爱你",
+                "lookNumber":"716",
+                "photo":"http://q.qlogo.cn/qqapp/1104706859/189AA89FAADD207E76D066059F924AE0/100",
+                
+                "messageSmallPics":[
+                                    "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396430.JPEG",
+                                    "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396531.JPEG",
+                                    "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396622.JPEG",
+                                    "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396703.JPEG",
+                                    "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396894.JPEG",
+                                    "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396975.JPEG"
+                                    ],
+                "messageBigPics":[
+                                  "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396430.JPEG",
+                                  "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396531.JPEG",
+                                  "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396622.JPEG",
+                                  "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396703.JPEG",
+                                  "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396894.JPEG",
+                                  "http://weixintest.ihk.cn/ihkwx_upload/commentPic/20160513/14631236396975.JPEG"
+                                  ],
+                "commentMessages":[
+                                   {
+                                   "id":651,
+                                   "commentId":575,
+                                   "commentUserId":274,
+                                   "commentUserName":"文明",
+                                   "commentPhoto":"http://q.qlogo.cn/qqapp/1104706859/189AA89FAADD207E76D066059F924AE0/100",
+                                   "commentText":"火车，福彩",
+                                   "commentByUserId":274,
+                                   "commentByUserName":"文明",
+                                   "commentByPhoto":"http://q.qlogo.cn/qqapp/1104706859/189AA89FAADD207E76D066059F924AE0/100",
+                                   "createDate":1463126018000,
+                                   "createDateStr":"2016-05-13 15:53",
+                                   "checkStatus":"YES"
+                                   },
+                                   {
+                                   "id":652,
+                                   "commentId":575,
+                                   "commentUserId":274,
+                                   "commentUserName":"文明",
+                                   "commentPhoto":"http://q.qlogo.cn/qqapp/1104706859/189AA89FAADD207E76D066059F924AE0/100",
+                                   "commentText":"地方重新",
+                                   "commentByUserId":274,
+                                   "commentByUserName":"文明",
+                                   "commentByPhoto":"http://q.qlogo.cn/qqapp/1104706859/189AA89FAADD207E76D066059F924AE0/100",
+                                   "createDate":1463127211000,
+                                   "createDateStr":"2016-05-13 16:13",
+                                   "checkStatus":"YES"
+                                   },
+                                   {
+                                   "id":653,
+                                   "commentId":575,
+                                   "commentUserId":274,
+                                   "commentUserName":"文明",
+                                   "commentPhoto":"http://q.qlogo.cn/qqapp/1104706859/189AA89FAADD207E76D066059F924AE0/100",
+                                   "commentText":"搜噶v是非黑白",
+                                   "commentByUserId":0,
+                                   "commentByUserName":"",
+                                   "commentByPhoto":"",
+                                   "createDate":1463127227000,
+                                   "createDateStr":"2016-05-13 16:13",
+                                   "checkStatus":"YES"
+                                   }
+                                   ]
+                }
+                
+                
+                
+                
+                
+                
+            
+                
+                ]
+    },
+    "msg":"成功"
+}

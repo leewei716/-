@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCell1" id="KGk-i7-Jjw" userLabel="Table Cell1" customClass="LXADDTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英国" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLF-as-nEY">
+                        <rect key="frame" x="25" y="11" width="100" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="I21-5B-Khj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="off" highlightedImage="on" translatesAutoresizingMaskIntoConstraints="NO" id="yAE-w7-zao">
+                        <rect key="frame" x="272" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="1Mp-0i-WUI"/>
+                            <constraint firstAttribute="width" constant="20" id="Voi-7Z-09B"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eLF-as-nEY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="7hQ-6T-A4v"/>
+                    <constraint firstItem="eLF-as-nEY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="17" id="CpZ-bl-Qj2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="yAE-w7-zao" secondAttribute="trailing" constant="20" id="Ctf-eP-Acb"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eLF-as-nEY" secondAttribute="bottom" constant="3" id="e1S-xJ-x6d"/>
+                    <constraint firstItem="yAE-w7-zao" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3.5" id="eVg-Jw-uFQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countryLab" destination="eLF-as-nEY" id="Zmg-aN-3Ou"/>
+                <outlet property="wantCountryImg" destination="yAE-w7-zao" id="32K-oa-TcA"/>
+            </connections>
+            <point key="canvasLocation" x="304" y="300"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="off" width="48" height="48"/>
+        <image name="on" width="48" height="48"/>
+    </resources>
+</document>
